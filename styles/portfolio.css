@@ -1,0 +1,39 @@
+/* front style add */
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.t-primary {
+  color: #fd6e0a;
+}
+.p-btn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 35px;
+}
+/* header styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: black;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: baseline;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
